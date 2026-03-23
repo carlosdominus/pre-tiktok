@@ -126,11 +126,13 @@ export default function App() {
               transition={{ type: 'spring', damping: 25, stiffness: 200 }}
               className="absolute inset-0 h-full w-full"
             >
-              <iframe
-                src="https://www.youtube.com/embed/SHauxcbIi-U?autoplay=1&mute=1&controls=0&loop=1&playlist=SHauxcbIi-U&modestbranding=1&rel=0"
-                className="w-full h-full object-cover pointer-events-none scale-[1.5]"
-                allow="autoplay; encrypted-media"
-                title="TikTok Video"
+              <video
+                src="https://tudoprahoje.site/tikhot/images/qid5070v1_h264_450_640.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-full object-cover pointer-events-none"
               />
               <VideoOverlay 
                 username="victória" 
@@ -151,11 +153,13 @@ export default function App() {
             >
               {/* Blocked Content Simulation */}
               <div className="absolute inset-0 opacity-20 grayscale blur-sm">
-                 <iframe
-                  src="https://www.youtube.com/embed/SHauxcbIi-U?autoplay=1&mute=1&controls=0&loop=1&playlist=SHauxcbIi-U&modestbranding=1&rel=0"
-                  className="w-full h-full object-cover pointer-events-none scale-[1.5]"
-                  allow="autoplay; encrypted-media"
-                  title="TikTok Video Blocked"
+                 <video
+                  src="https://tudoprahoje.site/tikhot/images/qid5070v1_h264_450_640.mp4"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-full object-cover pointer-events-none"
                 />
               </div>
               
