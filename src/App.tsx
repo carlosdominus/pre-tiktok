@@ -196,16 +196,12 @@ export default function App() {
                 transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
                 className="mb-8"
               >
-                <div className="relative">
-                  <div className="w-16 h-16 border-2 border-white rounded-2xl flex items-center justify-center">
-                    <div className="w-1 h-4 bg-white rounded-full opacity-50" />
-                  </div>
-                  <div className="absolute -right-4 -bottom-4">
-                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M20 10V30M10 20H30" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-                    </svg>
-                  </div>
-                </div>
+                <img 
+                  src="https://i.ibb.co/LzYZ01G0/19186753-deslize-o-dedo-da-mao-e-arraste-o-icone-da-linha-belisque-a-tela-gire-no-pictograma-linear.png" 
+                  alt="Deslize" 
+                  className="w-32 h-32 object-contain invert"
+                  referrerPolicy="no-referrer"
+                />
               </motion.div>
               <p className="text-lg font-medium leading-tight mb-8">
                 Role a tela, use as teclas ↑ ↓ ou clique nas setas à direita para navegar no seu feed.
