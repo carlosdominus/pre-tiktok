@@ -170,7 +170,7 @@ export default function App() {
                 <h2 className="text-2xl font-bold mb-2 uppercase tracking-tight">Acesso Bloqueado</h2>
                 <p className="text-gray-300 mb-8 text-sm">Faça a verificação para liberar o APP e continuar assistindo.</p>
                 <a 
-                  href="https://tudoprahoje.site/tikhot/"
+                  href="https://tudoprahoje.site/tikhot/pre-on/"
                   className="bg-[#ff0050] text-white font-bold py-4 px-12 rounded-full text-lg hover:scale-105 transition-transform active:scale-95 shadow-lg"
                 >
                   VERIFICAR AGORA
